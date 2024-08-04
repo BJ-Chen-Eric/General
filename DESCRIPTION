@@ -1,0 +1,14 @@
+Package: general
+Title: An Package containing general functions 0804
+Version: 0.0.0.9000
+Authors@R: 
+    person("Eric", "Chen", , "cysh010479@gmail.com", role = c("aut", "cre"))
+Description: A simple general package to demonstrate package creation.
+    0804
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
