@@ -1,6 +1,6 @@
 Package: general
 Title: An Package containing general functions 0804
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("Eric", "Chen", , "cysh010479@gmail.com", role = c("aut", "cre"))
 Description: A simple general package to demonstrate package creation 0804.
@@ -11,3 +11,9 @@ RoxygenNote: 7.3.2
 Imports: 
     dplyr,
     stringr
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
