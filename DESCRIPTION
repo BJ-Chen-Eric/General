@@ -1,6 +1,6 @@
 Package: general
 Title: An Package containing general functions 0804
-Version: 0.0.0.9004
+Version: 0.0.0.9005
 Authors@R: 
     person("Eric", "Chen", , "cysh010479@gmail.com", role = c("aut", "cre"))
 Description: A simple general package to demonstrate package creation 0804.
@@ -9,7 +9,13 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
+    ape,
+    data.table,
     dplyr,
+    fs,
+    purrr,
+    rlang,
+    seqinr,
     stringr
 Suggests: 
     knitr,
