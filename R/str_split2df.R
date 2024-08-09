@@ -6,8 +6,6 @@
 #' @details DETAILS
 #' @examples 
 #' header_cleaning(c('a_b_c'), pattern='_')
-#' @seealso 
-#'  \code{\link[stringr]{str_split}}
 #' @rdname header_cleaning
 #' @export 
 #' @import dplyr
